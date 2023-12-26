@@ -8,18 +8,22 @@ Project Organization
 
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
-    ├── data               LES .ZIP et les Images NE SONT PAS STOCKEE SUR CE GITHUB
+    ├── data               ######       LES .ZIP et les Images NE SONT PAS STOCKEE SUR CE GITHUB
     |   ├── raw            le fichier RAW info.txt contient les infos sur la composition et les origines des données brutes.
-    │   │                  le notebook 1.0-steve-data-exploration et 1.0-Thibault-data-exploration s'appuient sur ce jeu
+    │   │                  ~/notebook/1.0-steve-data-exploration et 1.0-Thibault-data-exploration, s'appuient sur ce jeu
     │   │
-    │   ├── preprocess     un fichier Preprocessing_1.zip contients les images brutes transformées en images masquée de 256*256, 
-    │   │                 en mode 'Grayscale' et crée sur la base du Notebook 2.0-Thibault-Preprocessing
+    │   ├── preprocess     <- un fichier Preprocessing_1.zip contenant toutes les images transformées en images masquées de 256*256, 
+    │   │                  en mode 'Grayscale' a été géneré avec le programme suivant: ~/src/2.0-Thibault-Preprocessing.py
     │   │
-    │   ├── split_balanced  un fichier TestTrain. zip a été crée sur la base du notebook 1.0-Steve-DIRECTE-balanced-4-classes
-    │   │                  il contient 2 jeux équilibrés TRAIN et TEST de 4 classes d'images masquées. dans un rdistribuécontient 4 classes repartie dans 
-    │   └── preprocess     un fichier Preprocessing_1.zip contients les images brutes transformées en images masquée de 256*256 'Grayscale'.
-    │                      il a été crée sur la base du Noteebook 
-        │<- The original, immutable data dump.
+    │   ├── split_balanced <- un fichier TestTrain. zip a été crée avec le programme  ~/src/1.0-Steve-BalanceNSplit.py.
+    │   │                  il contient 4304 images masquées équilibré sur 4 classes dans un jeu TRAIN
+    │   │                  il contient 4304 images masquées équilibré sur 4 classes dans un jeu TEST
+    │   │
+    │   └── reduites      <- jeux de donnée des images masquée reduites à leur distribution d'intensité avec: ~/src/1.0-
+    │        └── Train_Intensite_H.json   <- Jeu d'entrainement equilibrées sur deux classes de 6458 images reduites 
+    │        └── Test_Intensite_H.json   <- Jeu d'entrainement equilibrées sur deux classes de 6458 images reduites 
+
+
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
@@ -39,15 +43,8 @@ Project Organization
     │                         generated with `pip freeze > requirements.txt`
     │
     ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
+    │   ├── 2.0 Thibault Preprocessing       <- Source code pour l'application du preprocessing sur l'intégralité du jeu de données brute
+    │   ├── 1.0 Steve BalanceNSplit          <- Source code pour la création des jeu TRAIN et TEST equilibrés
     │   │
     │   ├── visualization  <- Scripts to create exploratory and results oriented visualizations
     │   │   └── visualize.py
