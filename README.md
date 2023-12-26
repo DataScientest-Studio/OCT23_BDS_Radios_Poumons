@@ -31,7 +31,12 @@ Project Organization
     ├── notebooks          
     |   └── 1.0-steve-data-exploration  
     |   └── 1.0 Thibaut data exploration                   
-
+    │   └── Approche directe
+    │        └──    <-  
+    │        └──    <-  
+    │   └── Approche réduite
+    │        └──    <-  
+    │        └──    <-  
     
     │
     ├── references         <- Data dictionaries, manuals, links, and all other explanatory materials.
