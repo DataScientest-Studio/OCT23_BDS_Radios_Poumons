@@ -8,6 +8,10 @@ Project Organization
 
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
+    
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+    │                         generated with `pip freeze > requirements.txt`
+    
     ├── data               ######       LES .ZIP et les Images NE SONT PAS STOCKEE SUR CE GITHUB
     |   ├── raw            le fichier RAW info.txt contient les infos sur la composition et les origines des données brutes.
     │   │                  ~/notebook/1.0-steve-data-exploration et 1.0-Thibault-data-exploration, s'appuient sur ce jeu
@@ -24,8 +28,6 @@ Project Organization
     │        └── Test_Intensite_H.json   <- Jeu d'entrainement equilibrées sur deux classes de 6458 images reduites 
 
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
     ├── notebooks          
     |   └── 1.0-steve-data-exploration  
     |   └── 1.0 Thibaut data exploration                   
@@ -37,8 +39,7 @@ Project Organization
     ├── reports            <- The reports that you'll make during this project as PDF
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
+
     │
     ├── src                <- Source code for use in this project.
     │   ├── 2.0 Thibault Preprocessing       <- Source code pour l'application du preprocessing sur l'intégralité du jeu de données brute
