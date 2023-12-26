@@ -26,7 +26,6 @@ Project Organization
     │   └── reduites    <- jeux de donnée des images masquée reduites à leur distribution d'intensité avec: ~/src/1.0-Steve-Reduce-BalanceNSplit.py
     │        └── Train_Intensite_H.json   <- Jeu d'entrainement equilibrées sur deux classes de 6458 images reduites 
     │        └── Test_Intensite_H.json   <- Jeu d'entrainement equilibrées sur deux classes de 6458 images reduites 
-
     │
     ├── notebooks          
     |   └── 1.0-steve-data-exploration  
@@ -35,9 +34,9 @@ Project Organization
     │        └──    <-  
     │        └──    <-  
     │   └── Approche réduite
-    │        └──    <-  
-    │        └──    <-  
-    
+    │        └── 1.0 Steve Réduite Exp 2.0  <-  Notebook d'evaluation d'un modèle quelconque type le net en 1D
+    │        └── 1.0 Steve Réduite Exp 2.5  <-  Notebook de determination de l'architecture et les hyperparamètres optimaux pour un modele Le net 1D   
+    │        └── 1.0 Steve Réduite Exp 3.0  <-  Notebook d'evaluation du modèle optimales type le net en 1D    
     │
     ├── references         <- Data dictionaries, manuals, links, and all other explanatory materials.
     │
