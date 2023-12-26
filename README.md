@@ -9,9 +9,13 @@ Project Organization
 
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
-    ├── data               <- Should be in your computer but not on Github (only in .gitignore)
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    ├── data               
+    |   ├── raw            le fichier RAW info.txt contient les infos sur la composition et les origines des données brutes.
+    │   │                  le notebook 1.0-steve-data-exploration s'appuie sur ce jeu
+    │   │
+    │   └── preprocess     un fichier Preprocessing_1.zip contients les images brutes transformées en images masquée de 256*256 'Grayscale'.
+    │                      il a été crée sur la base du Norebook 
+        │<- The original, immutable data dump.
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
