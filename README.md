@@ -19,20 +19,18 @@ Project Organization
     │   │                  il contient 4304 images masquées équilibré sur 4 classes dans un jeu TRAIN
     │   │                  il contient 4304 images masquées équilibré sur 4 classes dans un jeu TEST
     │   │
-    │   └── reduites      <- jeux de donnée des images masquée reduites à leur distribution d'intensité avec: ~/src/1.0-
+    │   └── reduites    <- jeux de donnée des images masquée reduites à leur distribution d'intensité avec: ~/src/1.0-Steve-Reduce-BalanceNSplit.py
     │        └── Train_Intensite_H.json   <- Jeu d'entrainement equilibrées sur deux classes de 6458 images reduites 
     │        └── Test_Intensite_H.json   <- Jeu d'entrainement equilibrées sur deux classes de 6458 images reduites 
-
 
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          1.0-steve-data-exploration
-    |                      1.0 Thibaut data exploration
-    |                      2.0 Thibaut preprocessing
-    |                      <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's name, and a short `-` delimited description, e.g.
-    │                         `1.0-alban-data-exploration`.
+    ├── notebooks          
+    |   └── 1.0-steve-data-exploration  
+    |   └── 1.0 Thibaut data exploration                   
+
+    
     │
     ├── references         <- Data dictionaries, manuals, links, and all other explanatory materials.
     │
@@ -44,8 +42,11 @@ Project Organization
     │
     ├── src                <- Source code for use in this project.
     │   ├── 2.0 Thibault Preprocessing       <- Source code pour l'application du preprocessing sur l'intégralité du jeu de données brute
-    │   ├── 1.0 Steve BalanceNSplit          <- Source code pour la création des jeu TRAIN et TEST equilibrés
-    │   │
+    │   ├── 1.0 Steve BalanceNSplit          <- Source code pour la création des jeux TRAIN et TEST equilibrés
+    │   ├── 1.0 Steve Reduce-BalanceNSplit          <- Source code pour la création des jeux TRAIN et TEST equilibrés│pour l'approche REDUITE
+
+
+    
     │   ├── visualization  <- Scripts to create exploratory and results oriented visualizations
     │   │   └── visualize.py
 
