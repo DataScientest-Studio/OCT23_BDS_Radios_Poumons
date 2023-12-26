@@ -1,6 +1,5 @@
 oct23_bds_radios_pulmonaires
 ==============================
-
 Répertoire du projet Radios Pulmonaires dans le cadre du bootcamp Data Scientist d'octobre 2023 (Datascientest).
 Equipe projet : Steve Costalat, Nicolas Gorgol, Thibaut Gazagnes
 
@@ -9,12 +8,17 @@ Project Organization
 
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
-    ├── data               
+    ├── data               LES .ZIP et les Images NE SONT PAS STOCKEE SUR CE GITHUB
     |   ├── raw            le fichier RAW info.txt contient les infos sur la composition et les origines des données brutes.
-    │   │                  le notebook 1.0-steve-data-exploration s'appuie sur ce jeu
+    │   │                  le notebook 1.0-steve-data-exploration et 1.0-Thibault-data-exploration s'appuient sur ce jeu
     │   │
+    │   ├── preprocess     un fichier Preprocessing_1.zip contients les images brutes transformées en images masquée de 256*256, 
+    │   │                 en mode 'Grayscale' et crée sur la base du Notebook 2.0-Thibault-Preprocessing
+    │   │
+    │   ├── split_balanced  un fichier TestTrain. zip a été crée sur la base du notebook 1.0-Steve-DIRECTE-balanced-4-classes
+    │   │                  il contient 2 jeux équilibrés TRAIN et TEST de 4 classes d'images masquées. dans un rdistribuécontient 4 classes repartie dans 
     │   └── preprocess     un fichier Preprocessing_1.zip contients les images brutes transformées en images masquée de 256*256 'Grayscale'.
-    │                      il a été crée sur la base du Norebook 
+    │                      il a été crée sur la base du Noteebook 
         │<- The original, immutable data dump.
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
