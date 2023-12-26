@@ -31,11 +31,12 @@ Project Organization
     |   └── 1.0-steve-data-exploration  
     |   └── 1.0 Thibaut data exploration                   
     │   └── Approche directe
-    │        └──  1.0 Nicolas directe Exp 1.0   <-  Notebook d'evaluation d'un modèle quelconque type le net
-    │        └──  1.0 Nicolas directe exp 1.5   <-  Notebook de determination des meilleurs hyperparamètres pour modele le net
-    │        └──  1.0 Nicolas directe Exp 2-3   <-  Notebook d'evaluation de modèle de Transfert learning
-    │        └──  1.0 Thibault directe Exp 4.1  <-  Notebook d'evaluation de modèle de Transfert learning avec réentrainement et optimisatioon
-    │        └──  1.0 Steve directe Exp 4.16    <-  Notebook d'evaluation de modèle de Transfert learning Resnet152v2 avec réentrainement   
+    │   │   └──  1.0 Nicolas directe Exp 1.0   <-  Notebook d'evaluation d'un modèle quelconque type le net
+    │   │    └──  1.0 Nicolas directe exp 1.5   <-  Notebook de determination des meilleurs hyperparamètres pour modele le net
+    │   │    └──  1.0 Nicolas directe Exp 2-3   <-  Notebook d'evaluation de modèle de Transfert learning
+    │   │    └──  1.0 Thibault directe Exp 4.1  <-  Notebook d'evaluation de modèle de Transfert learning avec réentrainement et optimisatioon
+    │   │    └──  1.0 Steve directe Exp 4.16    <-  Notebook d'evaluation de modèle de Transfert learning Resnet152v2 avec réentrainement  
+    │   │
     │   └── Approche réduite
     │        └── 1.0 Steve Réduite Exp 2.0  <-  Notebook d'evaluation d'un modèle quelconque type le net en 1D
     │        └── 1.0 Steve Réduite Exp 2.5  <-  Notebook de determination de l'architecture et les hyperparamètres optimaux pour un modele Le net 1D   
